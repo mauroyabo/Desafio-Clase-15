@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* HEADER */
+.bg-light{
+    background: #C1BFC1 !important;
+}
+
+.navbar-nav .nav-link {
+    color:#000872 !important;
+    font-size: 22px;
+    padding: 15px !important;
+}
+
+div .col-lg-12{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* FIN HEADER */
+
+.transition{
+    transition: all 1s;  
+  }
+  
+.transition:hover{
+    transform: translateY(-15px);
+}
+
+
+div .col-1{
+    padding: 0px !important;
+}
+
+div .col-1 img{
+    width: 130px;
+    height: 130px;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+div .row img{
+    width: 300px;
+    height: 300px;
+}
+
+
+h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* CENTRA EL FORM*/
+div .row{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+.imgTrabajos{
+    padding: 20px;
+    width: 450px;
+    height: 500px;
+}
+
+.btn-primary {
+    color: #C1BFC1;
+    background-color: #000872;
+    border-color: #000872;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-success {
+    color: #C1BFC1;
+    background-color: #000872;
+    border-color: #000872;
+    margin-bottom: 10px;
+}
+/*ARMADO FOOTER*/
+footer{
+    background-color: #000872;
+}
+
+footer p{
+    color: #C1BFC1;
+}
+
+
+.menuFooter a{
+    text-decoration: none;
+}
+
+.cajaFooterFlex{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+footer .iconos{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.cajaFooterFlex li{
+    list-style: none;
+}
+
+/*FIN ARMADO FOOTER*/
+
+
